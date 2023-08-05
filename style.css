@@ -55,7 +55,7 @@ hr{
 input {
   margin-right: 30px;
 }
-.addToCard {
+#checkButton {
   border-radius: 5px;
   width: 90%;
   height: 50px;
