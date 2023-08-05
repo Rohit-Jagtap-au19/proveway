@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.title{
+  color: grey;
+  background-color: white;
+  padding: 10px;
+  z-index: 1;
+}
+hr{
+  width: 90%;
+  position: relative;
+  top: 55px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.mainCard {
+  border-radius: 5px;
+  width: 80%;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 10px;
+}
+.card {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 10px;
+}
+.card2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-content {
+  display: flex;
+  margin-right: 20px;
+}
+.info {
+  line-height: 25px;
+}
+input {
+  margin-right: 30px;
+}
+.addToCard {
+  border-radius: 5px;
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 127, 97, 1);
+  color: white;
+  font-weight: 800;
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+}
+.bold {
+  font-size: 20px;
+  font-weight: 800;
+}
+.shipping-details {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.grey {
+  color: grey;
+}
+.mt {
+  margin-bottom: 100px;
+}
+.ml {
+  margin-left: 55px;
+}
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 30px;
+  /* background-color: red; */
+}
+.optionsTitle {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  /* background-color: blue; */
+}
+.options {
+  /* background-color: yellow; */
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+select{
+  margin: 5px 20px;
+  width: 100%;
+}
