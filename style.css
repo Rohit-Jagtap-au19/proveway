@@ -5,16 +5,16 @@ body {
   height: 100vh;
   margin: 0;
 }
-.title{
+.title {
   color: grey;
   background-color: white;
   padding: 10px;
   z-index: 1;
 }
-hr{
+hr {
   width: 90%;
   position: relative;
-  top: 55px;
+  top: 60px;
 }
 .main {
   display: flex;
@@ -40,7 +40,7 @@ hr{
   padding: 30px;
   margin: 10px;
 }
-.card2{
+.card2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,6 +56,7 @@ input {
   margin-right: 30px;
 }
 #checkButton {
+  cursor: pointer;
   border-radius: 5px;
   width: 90%;
   height: 50px;
@@ -63,6 +64,7 @@ input {
   font-size: 20px;
   background-color: rgba(0, 127, 97, 1);
   color: white;
+  border: none;
   font-weight: 800;
 }
 .offer {
@@ -89,11 +91,14 @@ input {
 .ml {
   margin-left: 55px;
 }
-.optionsContainer {
+.df {
   display: flex;
+}
+.optionsContainer {
+  display: none;
   flex-direction: column;
   justify-content: flex-start;
-  line-height: 30px;
+  line-height: 20px;
   /* background-color: red; */
 }
 .optionsTitle {
@@ -101,15 +106,19 @@ input {
   display: flex;
   justify-content: space-between;
   margin-left: 40px;
-  /* background-color: blue; */
+  height: auto;
 }
 .options {
   /* background-color: yellow; */
   width: 60%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
-select{
-  margin: 5px 20px;
+select {
+  /* background-color: blue; */
+  cursor: pointer;
+  justify-content: space-between;
+  height: auto;
+  margin: 5px 10px;
   width: 100%;
 }
